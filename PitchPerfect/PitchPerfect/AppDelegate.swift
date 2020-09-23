@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PitchPerfect
 //
-//  Created by Ahmed Aboelela on 12/9/2020.
+//  Created by Ahmed Aboelela on 13/9/2020.
 //  Copyright © 2020 Ahmed Aboelela. All rights reserved.
 //
 
@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        print("Hello world!")
         return true
     }
 
