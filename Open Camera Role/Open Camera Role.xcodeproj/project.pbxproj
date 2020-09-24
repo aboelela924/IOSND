@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		606A5CE5251CD460007EE83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A5CE4251CD460007EE83E /* AppDelegate.swift */; };
+		606A5CE7251CD460007EE83E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A5CE6251CD460007EE83E /* SceneDelegate.swift */; };
+		606A5CE9251CD460007EE83E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A5CE8251CD460007EE83E /* ViewController.swift */; };
+		606A5CEC251CD460007EE83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606A5CEA251CD460007EE83E /* Main.storyboard */; };
+		606A5CEE251CD461007EE83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606A5CED251CD461007EE83E /* Assets.xcassets */; };
+		606A5CF1251CD461007EE83E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606A5CEF251CD461007EE83E /* LaunchScreen.storyboard */; };
+		606A5CFC251CD462007EE83E /* Open_Camera_RoleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A5CFB251CD462007EE83E /* Open_Camera_RoleTests.swift */; };
+		606A5D07251CD462007EE83E /* Open_Camera_RoleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A5D06251CD462007EE83E /* Open_Camera_RoleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		606A5CF8251CD462007EE83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606A5CD9251CD45F007EE83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 606A5CE0251CD460007EE83E;
+			remoteInfo = "Open Camera Role";
+		};
+		606A5D03251CD462007EE83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606A5CD9251CD45F007EE83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 606A5CE0251CD460007EE83E;
+			remoteInfo = "Open Camera Role";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		606A5CE1251CD460007EE83E /* Open Camera Role.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Camera Role.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		606A5CE4251CD460007EE83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		606A5CE6251CD460007EE83E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		606A5CE8251CD460007EE83E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		606A5CEB251CD460007EE83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		606A5CED251CD461007EE83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		606A5CF0251CD461007EE83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		606A5CF2251CD461007EE83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606A5CF7251CD462007EE83E /* Open Camera RoleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open Camera RoleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		606A5CFB251CD462007EE83E /* Open_Camera_RoleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_Camera_RoleTests.swift; sourceTree = "<group>"; };
+		606A5CFD251CD462007EE83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606A5D02251CD462007EE83E /* Open Camera RoleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open Camera RoleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		606A5D06251CD462007EE83E /* Open_Camera_RoleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_Camera_RoleUITests.swift; sourceTree = "<group>"; };
+		606A5D08251CD462007EE83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		606A5CDE251CD460007EE83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606A5CF4251CD462007EE83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606A5CFF251CD462007EE83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		606A5CD8251CD45F007EE83E = {
+			isa = PBXGroup;
+			children = (
+				606A5CE3251CD460007EE83E /* Open Camera Role */,
+				606A5CFA251CD462007EE83E /* Open Camera RoleTests */,
+				606A5D05251CD462007EE83E /* Open Camera RoleUITests */,
+				606A5CE2251CD460007EE83E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		606A5CE2251CD460007EE83E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				606A5CE1251CD460007EE83E /* Open Camera Role.app */,
+				606A5CF7251CD462007EE83E /* Open Camera RoleTests.xctest */,
+				606A5D02251CD462007EE83E /* Open Camera RoleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		606A5CE3251CD460007EE83E /* Open Camera Role */ = {
+			isa = PBXGroup;
+			children = (
+				606A5CE4251CD460007EE83E /* AppDelegate.swift */,
+				606A5CE6251CD460007EE83E /* SceneDelegate.swift */,
+				606A5CE8251CD460007EE83E /* ViewController.swift */,
+				606A5CEA251CD460007EE83E /* Main.storyboard */,
+				606A5CED251CD461007EE83E /* Assets.xcassets */,
+				606A5CEF251CD461007EE83E /* LaunchScreen.storyboard */,
+				606A5CF2251CD461007EE83E /* Info.plist */,
+			);
+			path = "Open Camera Role";
+			sourceTree = "<group>";
+		};
+		606A5CFA251CD462007EE83E /* Open Camera RoleTests */ = {
+			isa = PBXGroup;
+			children = (
+				606A5CFB251CD462007EE83E /* Open_Camera_RoleTests.swift */,
+				606A5CFD251CD462007EE83E /* Info.plist */,
+			);
+			path = "Open Camera RoleTests";
+			sourceTree = "<group>";
+		};
+		606A5D05251CD462007EE83E /* Open Camera RoleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				606A5D06251CD462007EE83E /* Open_Camera_RoleUITests.swift */,
+				606A5D08251CD462007EE83E /* Info.plist */,
+			);
+			path = "Open Camera RoleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		606A5CE0251CD460007EE83E /* Open Camera Role */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606A5D0B251CD462007EE83E /* Build configuration list for PBXNativeTarget "Open Camera Role" */;
+			buildPhases = (
+				606A5CDD251CD460007EE83E /* Sources */,
+				606A5CDE251CD460007EE83E /* Frameworks */,
+				606A5CDF251CD460007EE83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Open Camera Role";
+			productName = "Open Camera Role";
+			productReference = 606A5CE1251CD460007EE83E /* Open Camera Role.app */;
+			productType = "com.apple.product-type.application";
+		};
+		606A5CF6251CD462007EE83E /* Open Camera RoleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606A5D0E251CD462007EE83E /* Build configuration list for PBXNativeTarget "Open Camera RoleTests" */;
+			buildPhases = (
+				606A5CF3251CD462007EE83E /* Sources */,
+				606A5CF4251CD462007EE83E /* Frameworks */,
+				606A5CF5251CD462007EE83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				606A5CF9251CD462007EE83E /* PBXTargetDependency */,
+			);
+			name = "Open Camera RoleTests";
+			productName = "Open Camera RoleTests";
+			productReference = 606A5CF7251CD462007EE83E /* Open Camera RoleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		606A5D01251CD462007EE83E /* Open Camera RoleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606A5D11251CD462007EE83E /* Build configuration list for PBXNativeTarget "Open Camera RoleUITests" */;
+			buildPhases = (
+				606A5CFE251CD462007EE83E /* Sources */,
+				606A5CFF251CD462007EE83E /* Frameworks */,
+				606A5D00251CD462007EE83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				606A5D04251CD462007EE83E /* PBXTargetDependency */,
+			);
+			name = "Open Camera RoleUITests";
+			productName = "Open Camera RoleUITests";
+			productReference = 606A5D02251CD462007EE83E /* Open Camera RoleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		606A5CD9251CD45F007EE83E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					606A5CE0251CD460007EE83E = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					606A5CF6251CD462007EE83E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 606A5CE0251CD460007EE83E;
+					};
+					606A5D01251CD462007EE83E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 606A5CE0251CD460007EE83E;
+					};
+				};
+			};
+			buildConfigurationList = 606A5CDC251CD45F007EE83E /* Build configuration list for PBXProject "Open Camera Role" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 606A5CD8251CD45F007EE83E;
+			productRefGroup = 606A5CE2251CD460007EE83E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				606A5CE0251CD460007EE83E /* Open Camera Role */,
+				606A5CF6251CD462007EE83E /* Open Camera RoleTests */,
+				606A5D01251CD462007EE83E /* Open Camera RoleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		606A5CDF251CD460007EE83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606A5CF1251CD461007EE83E /* LaunchScreen.storyboard in Resources */,
+				606A5CEE251CD461007EE83E /* Assets.xcassets in Resources */,
+				606A5CEC251CD460007EE83E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606A5CF5251CD462007EE83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606A5D00251CD462007EE83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		606A5CDD251CD460007EE83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606A5CE9251CD460007EE83E /* ViewController.swift in Sources */,
+				606A5CE5251CD460007EE83E /* AppDelegate.swift in Sources */,
+				606A5CE7251CD460007EE83E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606A5CF3251CD462007EE83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606A5CFC251CD462007EE83E /* Open_Camera_RoleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606A5CFE251CD462007EE83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606A5D07251CD462007EE83E /* Open_Camera_RoleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		606A5CF9251CD462007EE83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 606A5CE0251CD460007EE83E /* Open Camera Role */;
+			targetProxy = 606A5CF8251CD462007EE83E /* PBXContainerItemProxy */;
+		};
+		606A5D04251CD462007EE83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 606A5CE0251CD460007EE83E /* Open Camera Role */;
+			targetProxy = 606A5D03251CD462007EE83E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		606A5CEA251CD460007EE83E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				606A5CEB251CD460007EE83E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		606A5CEF251CD461007EE83E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				606A5CF0251CD461007EE83E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		606A5D09251CD462007EE83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		606A5D0A251CD462007EE83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		606A5D0C251CD462007EE83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Open Camera Role/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aboelela924.Open-Camera-Role";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		606A5D0D251CD462007EE83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Open Camera Role/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aboelela924.Open-Camera-Role";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		606A5D0F251CD462007EE83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Open Camera RoleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aboelela924.Open-Camera-RoleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Open Camera Role.app/Open Camera Role";
+			};
+			name = Debug;
+		};
+		606A5D10251CD462007EE83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Open Camera RoleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aboelela924.Open-Camera-RoleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Open Camera Role.app/Open Camera Role";
+			};
+			name = Release;
+		};
+		606A5D12251CD462007EE83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Open Camera RoleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aboelela924.Open-Camera-RoleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Open Camera Role";
+			};
+			name = Debug;
+		};
+		606A5D13251CD462007EE83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Open Camera RoleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aboelela924.Open-Camera-RoleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Open Camera Role";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		606A5CDC251CD45F007EE83E /* Build configuration list for PBXProject "Open Camera Role" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606A5D09251CD462007EE83E /* Debug */,
+				606A5D0A251CD462007EE83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606A5D0B251CD462007EE83E /* Build configuration list for PBXNativeTarget "Open Camera Role" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606A5D0C251CD462007EE83E /* Debug */,
+				606A5D0D251CD462007EE83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606A5D0E251CD462007EE83E /* Build configuration list for PBXNativeTarget "Open Camera RoleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606A5D0F251CD462007EE83E /* Debug */,
+				606A5D10251CD462007EE83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606A5D11251CD462007EE83E /* Build configuration list for PBXNativeTarget "Open Camera RoleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606A5D12251CD462007EE83E /* Debug */,
+				606A5D13251CD462007EE83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 606A5CD9251CD45F007EE83E /* Project object */;
+}
